@@ -28,26 +28,21 @@ You can run this application easily using Docker. The Docker image is hosted on 
 
 ### Option 2: Running Locally
 
-Prerequisites
+Prerequisites:
+    -Python 3.x
+    -RapidAPI key to access the Indian Stock Exchange API.
 
-    Python 3.x
-    RapidAPI key to access the Indian Stock Exchange API.
-
-    Clone the repository:
-
-    bash
-
-1. git clone https://github.com/mayuri1205/stockwatch.git
+1. Clone the repository:
+git clone https://github.com/mayuri1205/stockwatch.git
 cd stockwatch
 
 2. Install the required packages:
+   pip install -r requirements.txt
 
-3. pip install -r requirements.txt
-
-4. Run the application:
+3. Run the application:
    python app.py
 
-5. Access the application at http://localhost:5000.
+4. Access the application at http://localhost:5000.
 
 ### API Endpoints
 
